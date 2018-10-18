@@ -1,1 +1,4 @@
-# First Contribution 
+# First Contribution
+
+## License
+MIT License
