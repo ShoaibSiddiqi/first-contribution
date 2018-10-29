@@ -1,6 +1,10 @@
 # Contributors
 
 - [Shoaib Siddiqi](https://github.com/ShoaibSiddiqi)
+- [Shoaib Siddiqi2](https://github.com/ShoaibSiddiqi2)
+- [Muhammad Ali ](https://github.com/designsbyali)
+- [Niaz Ahmad](https://github.com/niaza)
+- [Shoaib Siddiqi22](https://github.com/ShoaibSiddiqi22)
 - [Atir Sarfraz](https://github.com/Atir11)
 - [Muhammad Ali ](https://github.com/designsbyali)
 - [Shoaib Siddiqi11](https://github.com/ShoaibSiddiqi11)
