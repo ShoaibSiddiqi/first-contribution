@@ -3,6 +3,7 @@
 - [Shoaib Siddiqi](https://github.com/ShoaibSiddiqi)
 - [Shoaib Siddiqi2](https://github.com/ShoaibSiddiqi2)
 - [Muhammad Ali ](https://github.com/designsbyali)
+- [Muhammad Ali 11](https://github.com/designsbyali11)
 - [Shoaib Siddiqi2](https://github.com/ShoaibSiddiqi2)
 - [Shoaib Siddiqi11](https://github.com/ShoaibSiddiqi11)
 - [Niaz Ahmad](https://github.com/niaza)
