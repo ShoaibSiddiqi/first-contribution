@@ -2,7 +2,8 @@
 
 - [Shoaib Siddiqi](https://github.com/ShoaibSiddiqi)
 - [Muhammad Ali ](https://github.com/designsbyali)
--[Amir rauf](https://github.com/Amirrauf40)
+- [Muhammad Ali22 ](https://github.com/designsbyali22)
+- [Amir rauf](https://github.com/Amirrauf40)
 - [Shoaib Siddiqi33](https://github.com/ShoaibSiddiqi33)
 - [Syed Ali Abbas](https://github.com/syedaliabbas12)
 - [Muhammad Ali222 ](https://github.com/designsbyali222)
