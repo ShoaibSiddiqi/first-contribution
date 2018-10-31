@@ -5,6 +5,7 @@
 - [Shoaib Siddiqi2](https://github.com/ShoaibSiddiqi2)
 - [Muhammad Ali ](https://github.com/designsbyali)
 - [Aqsa Rehman](https://github.com/AqsaRehman)
+- [jahanzeb2](https://github.com/jafffhanzeb78)
 - [jahanzeb2](https://github.com/jahanzeb78)
 - [Muhammad Ali 11](https://github.com/designsbyali11)
 - [Shoaib Siddiqi2](https://github.com/ShoaibSiddiqi2)
