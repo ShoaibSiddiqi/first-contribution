@@ -3,6 +3,7 @@
 - [Shoaib Siddiqi](https://github.com/ShoaibSiddiqi)
 - [aneeza](https://github.com/aneezatariq)
 - [Shoaib Siddiqi2](https://github.com/ShoaibSiddiqi2)
+- [jahanzeb2](https://github.com/jahanzeb7811)
 - [Muhammad Ali ](https://github.com/designsbyali)
 - [Aqsa Rehman](https://github.com/AqsaRehman)
 - [jahanzeb2](https://github.com/jahanzeb78)
