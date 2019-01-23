@@ -4,7 +4,6 @@
 - [aneeza](https://github.com/aneezatariq)
 - [Shoaib Siddiqi2](https://github.com/ShoaibSiddiqi2)
 - [Muhammad Ali ](https://github.com/designsbyali)
-Muhammad Rizwan Jamil
 - [Aqsa Rehman](https://github.com/AqsaRehman)
 - [jahanzeb2](https://github.com/jahanzeb78)
 - [Muhammad Ali 11](https://github.com/designsbyali11)
@@ -39,3 +38,4 @@ Muhammad Rizwan Jamil
 - [Muhammad Ali ](https://github.com/designsbyali)
 - [Maria Khurshid](https://github.com/mariakhurshid)
 - [Arslan Talib](https://github.com/arslantalib12)
+- [Muhammad Rizwan](https://github.com/rizwanj7391)
