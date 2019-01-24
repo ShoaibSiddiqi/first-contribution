@@ -1,6 +1,7 @@
 # Contributors
 
 - [Shoaib Siddiqi](https://github.com/ShoaibSiddiqi)
+- [natasha](https://github.com/NATASHAQURBAN)
 - [aneeza](https://github.com/aneezatariq)
 - [Shoaib Siddiqi2](https://github.com/ShoaibSiddiqi2)
 - [Muhammad Ali ](https://github.com/designsbyali)
