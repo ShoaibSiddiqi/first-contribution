@@ -37,4 +37,5 @@
 - [raybalakhtar](https://github.com/Nida-Batool/raybal)
 - [Muhammad Ali ](https://github.com/designsbyali)
 - [Maria Khurshid](https://github.com/mariakhurshid)
+- [Jim Mitsos](https://github.com/jimmitsos)
 - [Arslan Talib](https://github.com/arslantalib12)
