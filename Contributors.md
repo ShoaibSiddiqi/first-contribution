@@ -39,3 +39,6 @@
 - [Maria Khurshid](https://github.com/mariakhurshid)
 - [Arslan Talib](https://github.com/arslantalib12)
 - [Zaheer Abbas](https://github.com/zaheer55)
+- [Khalil Ur Rehman](https://github.com/itskhalilurrehman)
+- [Abdullah Safdar](https://github.com/mabdullahsafdar)
+
