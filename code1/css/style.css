@@ -1,0 +1,143 @@
+body{
+  background-color: lightgray;
+  font-family: arial;
+  font-size: ;
+  background-image: url("../images/background2.jpg");
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+
+}
+.main-heading{
+  color: red;
+  background-color: rgb(211,211,211);
+  text-align: center;
+  margin: 25px;
+  font-size: 200%;
+}
+h2{
+  margin: 35px;
+  text-align: center;
+}
+.p1{
+  text-align: justify;
+  margin: auto;
+}
+.p2{
+  text-align: justify;
+  margin: auto;
+}
+.image1{
+  display: block;
+  border-radius: .5rem;
+  width: 50%;
+  margin-top: .20rem;
+  margin-bottom: .30rem;
+  max-width: 55%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.q1{
+  text-align: center;
+}
+.image2{
+  display: block;
+  border-radius: .6rem;
+  width: 70%;
+  margin-top: .30rem;
+  margin-bottom: .30rem;
+  max-width: 70%;
+  height: auto;
+  margin-left: inherit;
+  margin-right: inherit;
+}
+h3{
+  margin: 20px;
+}
+h4{
+  margin: 20px;
+  font-size: 125%;
+}
+.P4{
+  text-align: justify;
+}
+.p4{
+  text-align: justify;
+}
+h5{
+  margin: 20px;
+  font-size: 120%;
+}
+.p5{
+  text-align: justify;
+}
+h6{
+  margin: 20px;
+  font-size: 120%;
+}
+.ul1{
+  margin: 10px;
+  text-align: left;
+}
+.ol1{
+  margin: 45px;
+  text-align: left;
+}
+
+
+.table1{
+  width: 170%;
+  height: auto;
+  text-align: center;
+  margin: 5%
+}
+table, th, td {
+  border: 1px solid black;
+  background-color: rgb(176,224,230);
+}
+.tr1{
+  background-color: white;
+  text-shadow: 5%;
+}
+form{
+  margin: 40%;
+  font-weight: bold;
+}
+input{
+  background-color: #B0E0E6;
+  color: white;
+  font-weight: bold;
+}
+.submit{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.submit1{
+  background-color: #40E0D0;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.form{
+  border: ppx dotted #ccc;
+  background: #fff;
+  margin-right: 250px;
+  margin-left: 80px;
+
+}
