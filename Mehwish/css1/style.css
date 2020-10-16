@@ -1,0 +1,38 @@
+.body{
+background-color: #f0f0f0;
+
+}
+.container{
+  margin-left:30%;
+  margin-right: 35%;
+}
+
+.submit{
+  background-color: #4CAF50;
+  border: solid;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.form1{
+  border: 5px solid #ccc;
+  background: #D3D3D3;
+  padding: 20px;
+border-radius: 20px;
+}
+input{
+  background-color: #B0E0E6;
+  color: white;
+  font-weight: bold;
+}
+.form .form-field{
+  margin-bottom: 10px;
+}
+.form1 .form-field input[type="text"]{
+width: 60%;
+padding: 5px;
+height:20px;
+border:1px solid #black;
+}

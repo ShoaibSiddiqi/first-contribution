@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css1/style.css">
+  </head>
+  <body>
+    <div class="container">
+
+
+<div class="form1">
+  <h2> Signup</h2>
+  <p>Fill this form to signup!</p>
+
+  <form name="myform" onsubmit="return validateForm()">
+     <div class="form-field">
+       <label>First Name:</label><br>
+       <input type="text" name="firstName" placeholder="First Name"><br><br>
+     </div>
+     <div class="form-field">
+       <label>Last Name:</label><br>
+       <input type="text" name="lastname" placeholder="Last name"><br><br>
+     </div>
+     <div class="form-field">
+       <label>Email Id:</label><br>
+       <input type="text" name="email" placeholder="Email id"><br><br>
+     </div>
+     <div class="form-field">
+       <label>Password:</label><br>
+       <input type="text" name="password" placeholder="Password"><br><br>
+     </div>
+     <div class="form-field">
+       <label>Confirm Password:</label><br>
+       <input type="text" name="confirm password" placeholder="Retype Password"><br><br>
+     </div>
+
+     <div class="form-field">
+       <label>Date of Birth</label><br>
+       <input type="date" name="birthdate" onclick="myfunction()"> </input><br><br>
+     </div>
+
+     <div class="form-field">
+       <label>Gender</label><br>
+       <input type="radio" id="male" name="Male" >
+       <label for="Male">Male</label>
+       <input type="radio" id="female" name="Female" >
+       <label for="feMale">Female</label>
+       <input type="radio" id="other" name="other" >
+       <label for="other">Other</label><br><br>
+     </div>
+
+     <input type="checkbox" id="myCheck" onclick="myFunction()">
+      <label for="terms">I accept the Terms of use & policy</label><br><br>
+
+     <div class="form-field">
+       <button class="submit" type="submit">Signup</button>
+       </div>
+    </form>
+</div>
+</div>
+
+<script>
+function validateForm(){
+
+  var firstName= document.forms["myform"]["firstName"].value;
+  var lastName= document.forms["myform"]["lastname"].value;
+  var email= document.forms["myform"]["email"].value;
+  var Password= document.forms["myform"]["password"].value;
+  var confirmPassword= document.forms["myform"]["confirm password"].value;
+
+  var checkBox = document.getElementById("myCheck");
+  var text = document.getElementById("text");
+
+  if(firstName==null || firstName== ""){
+    alert("First Name is Required");
+    return false;
+  }
+  if(lastName==null || lastName== ""){
+    alert("Last Name is Required");
+    return false;
+  }
+  if(email==null || email== ""){
+    alert("Email is Required");
+    return false;
+  }
+  if(Password=="" || Password.length<8){
+    alert("Password should be atleast 8 Characters");
+    return false;
+  }
+  if(Password != confirmPassword){
+    alert("Password doesn't match");
+    return false;
+  }
+  if (checkBox.checked == true){
+    text.style.display = "block";
+  } else {
+    text.style.display = "none";
+  }
+}
+</script>
+  </body>
+</html>
