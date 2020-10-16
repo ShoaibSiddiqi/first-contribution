@@ -1,0 +1,231 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.wrapper{
+  overflow: hidden;
+}
+header .bg-dark{
+  background-color: #073008 !important;
+}
+header .navbar-dark .navbar-nav .nav-link{
+  font-size: 12px;
+  font-weight: 600;
+  color:#fff;
+}
+.bg-light{
+  background-color: #2eb109 !important;
+
+}
+.navbar-custom{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.navbar-light .navbar-nav .nav-link{
+  font-size: 13px;
+  font-weight: 600;
+  color:#fff;
+  padding-right: 50px;
+}
+#nav{
+  margin-right: 100px;
+}
+/* cAROUSAL */
+#carouselExampleControls{
+  border-bottom: 5px solid #165100;
+}
+
+#carouselExampleControls img {
+  height: 745px;
+}
+
+
+/* Apply Section */
+
+#apply {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#apply a{
+  text-decoration: none;
+  color: #000;
+
+}
+#apply a:hover{
+  color: #2eb109;
+}
+#apply h3 , b{
+  padding-top: 20px;
+
+
+}
+/* Statistics Section */
+#stats{
+  padding-top: 100px;
+  background-color: #333;
+  padding-bottom: 85px;
+}
+
+/* About Us Section */
+
+#about{
+  background-color: #165100;
+  padding: 50px 150px 50px 150px;
+  color:#fff;
+}
+#about h2{
+  line-height: 1.8;
+}
+#about p{
+  line-height: 1.5;
+}
+
+/* Course Details */
+
+
+ #course {
+  background-color: #343434;
+  padding: 80px 150px 80px 150px;
+  color: #fff;
+}
+#course .col-sm-4{
+  padding: 0;
+  margin: 0;
+}
+
+.card{
+  margin-top: 30px;
+  border:none;
+  border-radius: none;
+}
+
+.list-group-flush>.list-group-item{
+  border: none;
+}
+#technical ul .list-group-item{
+  background-color: #2A2A2A;
+
+  border:none;
+}
+
+#technical .card-header{
+  background-color: #165100;
+border-radius: none;
+
+}
+#content-marketing .card-header{
+  background-color: #31781D;
+border-radius: none;
+
+}
+#content-marketing ul .list-group-item{
+  background-color: #414042;
+
+  border:none;
+}
+#design{
+  padding-bottom: 28px;
+}
+#design .card-header{
+  background-color: rgba(99, 183, 72, 0.54);
+border-radius: none;
+
+}
+
+#design ul .list-group-item{
+  background-color: #58595B;
+  border:none;
+}
+
+/* Candidate Section */
+
+#candidate{
+  background-color: #fff;
+  padding: 50px 150px 50px 150px;
+
+}
+#candidate .list-group-item{
+  font-weight:400;
+  font-size:1em;
+}
+#candidate .list-group-item span{
+  background-color:#333;
+  color:#fff;
+  padding: 10px 30px ;
+}
+#candidate button{
+  margin: 50px 0px 30px 0px;
+  background-color: #2EB209;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+}
+
+/* News Section */
+#news{
+  background-color: #DDDDDD;
+  padding: 50px 150px 50px 150px;
+}
+
+/* Career Section */
+
+#career{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  padding: 50px 150px 50px 150px;
+  color: #fff;
+}
+
+#career .card{
+  padding: 15px;
+  background-color: rgba(22, 81, 0, 0.56);
+  color:#fff;
+}
+
+
+/* Success Stories */
+
+#success{
+  padding: 100px 150px 100px 150px;
+}
+#success .title{
+  margin-bottom: 30px;
+}
+
+
+/* Freelancing Platforms */
+
+#freelancing{
+  background-color: rgba(159,245,132,0.65);
+  padding: 100px 150px 100px 150px;
+  color: #000;
+}
+/* Blog */
+
+#blog{
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-attachment: scroll;
+  margin-top: 100px;
+  margin-bottom: 150px;
+
+}
+#blog .col-sm-12{
+  padding-top: 500px;
+  text-align: center;
+}
+/* Footer Widgets  */
+
+#footer-widgets{
+  margin-top: 150px;
+  background-color: #333;
+  color: #fff;
+    padding: 50px 150px 50px 150px;
+}
+hr{
+  background-color: #fff;
+}
