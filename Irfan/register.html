@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	<style type="text/css">
+		*{
+	padding: 0px;
+	margin: 0px;
+}
+img{
+	height: 80px;
+	border-radius: 100px;
+	position: absolute;
+	margin-left: 600px;
+}
+body{
+background:white; 
+background: url(register.jpg);
+background-position: cover;
+}
+.reg{
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: white;
+	height: 550px;
+	width: 350px;
+	position: absolute;
+	background: #DCEBB1;
+	border-radius: 20px;
+	/*align-items: center;*/
+
+}
+h1{
+	text-align: center;
+	color: #131313;
+}
+
+input[type=text]{
+	margin-left: 80px;
+	display: block;
+	margin-top: 30px;
+	outline: none;
+	height: 20px;
+	background: none;
+	border: none;
+	border-bottom: 1px solid black;
+
+}
+ .select{
+	margin-top: 20px;
+	width: 180px;
+	margin-left: 80px;
+	height: 30px;
+	border: 1px solid #6C6F19 ;
+	background: none;
+	outline: none;
+	background: #C1E4D9;
+	border-radius: 25px;
+}
+
+.first{
+	margin-left: 80px;
+	margin-top: 20px;
+}
+.second{
+	margin-left: 70px;
+}
+input[type=submit]{
+	margin-top: 10px;
+	margin-left: 100px;
+	width: 160px;
+	height: 50px;
+	border-radius: 50px;
+	outline: none;
+	border:3px solid #166617;
+	color: white;
+	background: black;
+	font-size: 16px;
+}
+h4{
+	margin-left: 80px;
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.month{
+	margin-left: 80px;
+	border:none;
+	outline: none;
+	background: #E3E2CD  ;
+}
+.day{
+	border:none;
+	margin-left: 1px;
+	outline: none;
+	background: #E3E2CD ;
+}
+.year{
+	margin-left: 1px;
+	border:none;
+	outline: none;
+	background: #E3E2CD ;
+}
+input[type=submit]:hover{
+	background: rgb(0,100,0);
+}
+input[type=checkbox]{
+	margin-left: 100px;
+	margin-top:40px;
+
+}
+h3{
+	margin-left: 80px;
+	margin-top: 20px;
+}
+
+
+
+
+
+	</style>
+</head>
+<body>
+	<!-- <img src="ic.png"> -->
+
+	<div class="reg">
+
+		<h1>Please Register</h1>
+		<form>
+		<input type="text" placeholder="First Name" name="">
+		<input type="text" placeholder="Last Name" name="">
+		<input type="text" placeholder="Email" name="">
+		<input type="text" placeholder="Phone Number" name="">
+		<h4>Date of Birth</h4>
+		<select class="month">
+			<option>Month</option>
+			<option>Jan</option>
+			<option>Fab</option>
+			<option>March</option>
+			<option>April</option>
+			<option>May</option>
+			<option>June</option>
+			<option>July</option>
+			<option>August</option>
+			<option>Sep</option>
+			<option>Oct</option>
+			<option>Nov</option>
+			<option>December</option>
+		</select>
+		<select class="day">
+			<option>Day</option>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+			<option>6</option>
+			<option>7</option>
+			<option>8</option>
+			<option>9</option>
+			<option>10</option>
+			<option>11</option>
+			<option>12</option>
+			<option>13</option>
+			<option>14</option>
+			<option>15</option>
+			<option>16</option>
+			<option>17</option>
+			<option>18</option>
+			<option>19</option>
+			<option>20</option>
+			<option>21</option>
+			<option>21</option>
+			<option>22</option>
+			<option>23</option>
+			<option>24</option>
+			<option>25</option>
+			<option>26</option>
+			<option>27</option>
+			<option>28</option>
+			<option>29</option>
+			<option>30</option>
+
+
+		</select>
+		<select class="year">
+			<option>Year</option>
+			<option>1990</option>
+			<option>1991</option>
+			<option>1992</option>
+			<option>1993</option>
+			<option>1994</option>
+			<option>1995</option>
+			<option>1996</option>
+			<option>1997</option>
+			<option>1998</option>
+			<option>1999</option>
+			<option>2000</option>
+			<option>2001</option>
+			<option>2002</option>
+			<option>2003</option>
+			<option>2004</option>
+			<option>2005</option>
+			<option>2006</option>
+			<option>2007</option>
+			<option>2008</option>
+			<option>2009</option>
+			<option>2010</option>
+			<option>2011</option>
+			<option>2012</option>
+			<option>2013</option>
+			
+
+		</select>
+
+		<select class="select">
+			<option>City</option>
+			<option>Lahore</option>
+			<option>Islamabad</option>
+			<option>Karachi</option>
+			<option>Multan</option>
+			<option>Pehawar</option>
+			<option>Pindi</option>
+			<option>Quetta</option>
+			<option>Layyah</option>
+			<option>DGK</option>
+			<option>Faisalabad</option>
+		</select>
+
+	
+		<input type="radio" name="Gender" class="first"><span>Male</span>
+		<input type="radio" name="Gender" class="second"><span>FeMale</span>
+		</form>
+		<input type="checkbox" name="log">
+		<label for="log">Keep me logged in</label>
+		<input type="submit" value="REGISTER" name=""></div>
+		
+
+
+	</div>
+
+</body>
+</html>
