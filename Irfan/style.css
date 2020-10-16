@@ -1,0 +1,116 @@
+body{
+  font-family: sans-serif;
+  background: url(img.jpg);
+  background-position: cover;
+}
+.box{
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #191919;
+  text-align: center;
+}
+.box h1{
+  color: white;
+  font-weight: 500;
+}
+.box input[type = "text"],.box input[type = "password"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box input[type = "text"]:hover,.box input[type = "password"]:hover{
+  width: 280px;
+  border-color: #2ecc71;
+}
+.box input[type = "submit"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 100px;
+  /*transition: 0.25s;*/
+  cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+  background: #2ecc71;
+}
+.icon{
+  text-align: right;
+  padding: 20px;
+}
+.fab{
+  font-size: 40px;
+  margin-right: 5px;
+}
+ul li{
+list-style: none;
+float: left;
+margin: 10px;
+padding: 10px;display: block;
+}
+
+ul li ul li{
+  display: none;
+}
+ul li:hover ul li{
+  display: block;
+  float: initial;
+}
+
+ul li ul li a{
+  color: rgb(0,100,0);
+  /*display: block;*/
+}
+
+
+ul li a{
+text-decoration: none;
+color: white;
+}
+.menu{
+  height: 50px;
+  background: rgb(0,100,0);
+}
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.box .btn a{
+  color:#F97E32;
+  margin-right: 150px;
+}
+.box{
+  border-radius: 50px;
+}
+ul li:hover{
+  background:#F9DE32;
+  transition: 0.45s;
+}
+img{
+  position:inherit;
+  height: 100px;
+  border-radius: 100px;
+  margin-right:100px;
+
+}
+
+
+
