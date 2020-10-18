@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Caveat:wght@400;700&family=Pacifico&family=Satisfy&display=swap');
+
+body{
+  background: #f0f0f0;
+  margin: 0;
+  padding: 0:
+}
+
+.container{
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Caveat;
+  font-size: 14px;
+  color: blue;
+}
+
+.desktop-hide{
+  display: none;
+}
+
+@media(max-width:1200px){
+  .container{
+    width: 90%;
+    font-family: Satisfy;
+    color: #000;
+    /*margin-left: auto;
+    margin: auto*/
+  }
+}
+
+@media(max-width: 900px){
+  .container{
+    font-family: Pacifico;
+    color: red;
+    background-color: #000;
+    width: 80%;
+  }
+}
+
+@media(max-width: 760px){
+  .container{
+    color: orange;
+    width: 80%;
+  }
+
+  .desktop-hide{
+    display: block;
+  }
+}
+
+@media(max-width: 500px){
+  .container{
+    color: green;
+    width: 80%;
+  }
+}
+
+@media(max-width: 450px){
+  .container{
+    border: 5px groove #000;
+    width: 80%;
+  }
+}
