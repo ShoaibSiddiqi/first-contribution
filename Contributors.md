@@ -40,3 +40,4 @@
 - [Arslan Talib](https://github.com/arslantalib12)
 - [Khalil Ur Rehman](https://github.com/itskhalilurrehman)
 - [Abdullah Safdar](https://github.com/mabdullahsafdar)
+- [Shafia Shakir](https://github.com/safsha92)
