@@ -1,0 +1,62 @@
+body{
+  background-color: purple;
+  background-image: url("file:///C:/Users/caram/OneDrive/Desktop/erozgaar.PU/images/csspic.jpg");
+  background-size: cover;          /*
+                              background size: contain;
+                              background-repeat: repeat-x;
+                              background-repeat: repeat-y;
+                                    */
+}
+h1{
+  color: white;
+  background-color:coral;
+  text-align: center;
+  text-decoration:underline;
+  margin:0px 0px 20px 5px; /* T B R L */
+  padding:0px 10px 10px; /* T B R */
+}
+h2{
+  color:black;
+  background-color: #7B8788;
+  text-decoration: inherit;
+  text-align: center;
+  margin: 20px 20px;
+  padding: 10px 10px;
+}
+h3{
+color:#E83350;
+background-color:rgba(128,0,44,1);
+background-position:center;
+text-align: center;
+margin: 10px; /* all sides */
+padding: 5px 5px; /* T,B R,L */
+}
+/* calling class */
+.paragraph{
+  color: #30336B;
+  background-color:#2475B0;
+  text-align: center;
+  margin: 20px 20px;
+}
+.ipsum{
+  font-style: italic;
+  font-size: 20px;
+  line-height: 1;
+  color: white;
+}
+.lorem{
+  font-style: oblique;
+  color: pink;
+  margin-top: 20px;
+}
+/* calling id */
+#newpara{
+  color:#1BCA9B;
+  margin-top: 20px;
+}
+.foo.woo{
+  color: grey;
+  font-style: bold;
+  line-height: 2;
+  margin-top: 20px;
+}

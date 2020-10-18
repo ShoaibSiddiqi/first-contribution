@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <!--using inner css for events -->
+ <style>
+   .container{
+     width: 800px;
+     matgin: 0 auto;
+   }
+   .form{
+     margin-top: 40px;
+   }
+   select{
+     padding: 5px;
+   }
+ </style>
+    </head>
+  <body id="body">   <!--for form we have given this id to body-->
+<div class="container">
+
+    <div id="number"></div>
+
+    <div id="fruits"></div>
+
+    <div class="student"></div>  <!--for arrays of objects -->
+
+    <div class="events">
+    <!--  Creating events with functions-->
+      <button onclick="doClick()">Click Me</button>
+      <button onclick="this.innerHTML='You Clicked'">Click Me</button>
+      <br><br>
+    </div>
+
+ <button onmouseover="showDate()">Show Date</button> <!--onmouseup, onmousedown etc-->
+  <button onmouseout="ClearDate()">Clear Date</button>
+    <div id="time"></div>
+
+
+  <!-- Form-->
+  <div class="form">
+    <form name="myform" onsubmit="return validateForm()">
+
+      <div class="form-field">
+        <label>First Name</label>
+        <input type="text" name="Firstname">
+      </div>
+
+      <div class="form-field">
+        <label>Last Name</label>
+        <input type="text" name="Lastname">
+      </div>
+
+      <div class="form-field">
+       <select name="background" id="background" onchange="changeBackground(this)">
+         <option value="red">Red</option>
+         <option value="blue">Blue</option>
+         <option value="green">Green</option>
+         <option value="yellow">Yellow</option>
+       </select>
+      </div>
+      <div class="form-field">
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </div>
+
+</div>
+
+  <script>
+  // making function for Form
+
+  function changeBackground(x){
+    var body = document.getElementById('body');
+    body.style.backgroundColor = x.value;
+  }
+  //for form validation making function
+  function validateForm() {
+    var firstName = document.forms["myform"] ["firstName"].value;
+    if(firstName == null || firstName == ""){
+      alert("First Name is required");
+      return false;
+    }
+  }
+
+  var myFavNumber = 5
+
+  var MyFavNumber = 14
+
+//  alert(MyFavNumber); <!--alert is by-default function of JS to call a function means to alert a function -->
+                      // alert(myFavNumber + MyFavNumber)
+ </script>
+ <!--Array-->
+
+ <script>
+  var myFavNumber = 5
+
+  var MyFavNumber = 14
+
+  var number = [9, 89, 4, 23, "number"];
+  // alert(number); for showing all values
+
+//   alert(number.length); <!--for checking how many values 5(output) means last value 4 tak ha-->
+   // 5th number ma value add krani ha then
+   // number[5] = "hafsa";
+   // alert(number[5]);
+  //  alert(number.reverse()); // for showing reverse
+
+  var number2 = new Array("First", "Second", "Third"); // Method 2 but both workss same
+   number2.push("Fourth"); //push by default function for adding value
+   // or
+   // number2[3] = "Fourth";
+//   alert(number2); //must call alert for every function or array or variables etc
+
+  // alert(number[3]); for calling specific value
+
+   //Associative Array
+   var maira = {"name":"aziz", "age":"24"};
+//    alert(maira.name);
+
+  //for Loop
+
+  var text="";
+   //for(var i = 0; i < number.length; i++){
+     //text += number[i] + "<br>";  // + for concatination
+    // text += "<div class='number'>" + number[i] + "</div>"; and see from inspect
+  //}
+
+  // while loop
+  //var i=0;
+  //while(i < number.length){
+  //  text += "<div class='number'>" + number[i] + "</div>"; //class='hello' for checking that while loop is working
+  //  i++
+ // }
+// do while loop
+ // var i=0;
+  //do {
+  // text += "<div class='number'>" + number[i] + "</div>";
+  // i++
+// } while (i < number.length);
+  // document.getElementById("number").innerHTML = text;
+
+ //foreach Loop
+
+ var fruits = ["apple", "orange", "banana", "mango", "grapes"];
+
+ var myfruit = "";
+ var i = 0;
+
+ fruits.forEach( function(fruit, i) {
+    myfruit += "<div class='fruit'>" + fruit + "</div>" //"<br>" within loop div
+    i++
+ });
+
+document.getElementById("fruits").innerHTML = myfruit;
+
+// Conditions
+
+var var1 = 3; //"3"
+var var2 = 4;
+
+if(var1 == var2){  //(var1 == 3) (var1 != var2)
+   alert('my statement true');
+ } else if(true){ // khud hi true keh diya ha to output ma true statementr hi aye gi
+  //  alert('i am true');
+  } else if(false) {
+    alert('i am false');
+  } else {
+    alert('i am else');
+  }
+
+// for more then one statment
+/*  if(var1 == var2){
+     alert('my statement true');
+   } else if{
+      alert('my statement false');
+    } else {
+      alert()
+    }   */
+
+    var var1 = 3;
+    var var2 = 4;
+
+    var var3 = "maira"
+    var var4 = "aziz"
+
+    if(var1 == var2){
+       alert('my statement true');
+
+     } else if(var3 == var4){
+        alert('i am true');
+
+      } else if(var1 == var3) {
+        alert('i am false');
+
+      } else {
+    //    alert('nothing is true');
+      }
+ // using diff Operators
+ var var1 = 3;
+ var var2 = 4;
+
+ var var3 = "maira"
+ var var4 = "aziz"
+ if(var1 == var2 || var3 != var4){  // && all statments must be true
+//   alert('anyone statement should be true in OR operator');
+ } else{
+   alert('otherwise this');
+ }
+
+// Switch
+
+var fruit = "apple";
+
+  switch(fruit){
+    case "banana":
+    alert("i love banana");
+    break;
+
+    case "orange":
+    alert("i love orange");
+    break;
+
+    case "apple": //strawberry
+  //  alert("i love apple");
+    break;
+
+    case "melon":
+    alert("i love melon");
+    break;
+
+    default:
+    alert("i love all fruits");
+    break;
+  }
+
+  // Objects
+  // Object literal
+ var person = {
+    Firstname: "maira",
+    Lastname: "aziz",
+    Age: "26",
+  //  Expertise: "Wordpress"
+    Expertise:[ "Wordpress", "HTML", "Javascript"], // array for multiple values
+   //adding another object within this Object
+    Address: {
+     Class: "PU morning",
+     City: "Lahore",
+     State: "Punjab",
+   },
+ //now making a function
+   fullName: function() { //this is the function and its name is fullName
+     return this.Firstname + " " + this.Lastname;
+   }
+  }
+    console.log(person.fullName());
+  //  console.log(person);
+  //  console.log(person.Firstname); //for calling specific key
+  // console.log(person.Expertise[0]); // for calling specifiv value in array (0,1,2....)
+  //  console.log(person.Address.City); for calling another object
+
+  //Object Constructor
+  var apple = new Object();
+   apple.color = "red";
+   apple.shape = "round";
+
+   apple.describe = function(){ //making a function
+    return " An Apple is the color " + this.color + " and is the shape " + this.shape;
+   }
+  // alert(apple.describe());
+  // alert(apple.red);
+  //  console.log(apple); for calling whole object
+
+  //Constructor pattern
+  function Fruit(name, color, shape){
+    this.name = name;
+    this.color = color;
+    this.shape = shape;
+
+    this.describe = function(){
+   return "A " + this.name + " is the color " + this.color + " and is the shape " + this.shape;
+    }
+
+  }
+var apple = new Fruit("apple", "red", "round");
+var melon = new Fruit("melon", "green", "round");
+ console.log(melon.describe());  // or alert(apple.describe());
+
+ //Arrays of Objects
+
+ var users = [ // making and objects with values in a single array
+   {
+     Name: "Adil",
+     Age: 40
+   },
+  {
+    Name: "Jannat",
+    Age: 35
+  },
+  {
+    Name: "Ahmed",
+    Age: 50
+  }
+ ]
+
+ var personArr = [] //first method
+
+   person = {
+     Firstname: "Saf",
+     Lastname: "Sha",
+     Age: 35
+   },
+
+   person2 = {
+     Firstname: "Mohanmmad",
+     Lastname: "Adeel",
+     Age: 40
+   }
+
+ // 2nd Method
+   student = "", // for assigning data in a loop
+
+   data = document.getElementsByClassName('student') [0]; // giving starting value [0]
+
+    personArr.push(person,person2); //pushing both objects in an empty array
+    //  console.log(personArr); for calling two objects within a single array
+
+    //Now with a Loop
+    for(var i = 0; i < personArr.length; i++){
+    //  student += personArr[i]
+    //by using keys
+      student += "<h3>Full Name: " + personArr[i].Firstname + " " + personArr[i].Lastname + "</h3>";
+      student += "<h3>Age: " + personArr[i].Age + "</h3>";
+
+    }
+    data.innerHTML = student; //call student data in this
+
+    //Events
+
+    function doClick(){
+      alert("You Clicked");  //this will work with function doClick
+    }
+
+    function showDate(){
+      var time = document.getElementById('time');
+      time.innerHTML= Date();
+    }
+
+    function ClearDate(){
+      var time = document.getElementById('time');
+      time.innerHTML= "";
+    }
+
+
+
+   </script>
+  </body>
+</html>
