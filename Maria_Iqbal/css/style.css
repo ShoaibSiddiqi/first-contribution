@@ -1,0 +1,102 @@
+body {
+    background: rgb(100, 100, 100);
+    font: 18px Arial, sans-serif;
+    background-image: url("images/logo.png");
+    background-repeat: repeat-x;
+    color: aliceblue;
+    background-repeat: repeat-x;
+}
+h1 {
+    color: orange;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: overline;
+
+}
+p.blue {
+    color: blue;
+}
+p {
+    font-size: 14px;
+    text-align: justify;
+    text-indent: 100px;
+    letter-spacing: 10px;
+    line-height: 1.2;
+
+}
+
+p em {
+    color: purple;
+    text-transform: uppercase;
+
+}
+
+ul > li {
+    list-style: square;
+}
+ul > li ol {
+    list-style: none;
+}
+
+h3 + p {
+    color: blue;
+    font-size: 18px;
+}
+ul + p {
+    color: #f0f;
+    text-indent: 30px;
+}
+nav.div {
+    min-height: 300px;
+    max-height: 500px;
+}
+div{
+    text-align: center;   
+}
+p.normal {
+    font-style: normal;
+  }
+  p.italic {
+    font-style: italic;
+  }
+  p.oblique {
+    font-style: oblique;
+  }
+  tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+  ul {
+    padding: 0;
+    list-style: none;
+    background: #f2f2f2;
+}
+ul li {
+    display: inline-block;
+}
+table, th, td {
+    border: 1px solid black;
+}
+ul li a {
+    display: block;
+    padding: 10px 25px;
+    color: #333;
+    text-decoration: none;
+}
+ul li a:hover {
+    color: #fff;
+    background: #939393;
+}
+  a:link, a:visited {
+    color: white;    
+    background-color: #1ebba3;    
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #099983;
+    text-decoration: none;
+    text-align: center;
+    font: 14px Arial, sans-serif;  
+}
+a:hover, a:active {
+    background-color: #9c6ae1;
+    border-color: #7443b6;
+}
