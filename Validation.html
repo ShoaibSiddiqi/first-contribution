@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		#reg{
+			text-align: center;
+			margin-top: 100px;
+		}
+	</style>
+<head>
+
+</head>
+<body>
+
+
+
+<div id="reg">
+	<H2>Registration Form</H2>
+
+<form name="myForm"  onsubmit="return validateForm()" method="post">
+ First Name: <input type="text" name="fname" id="fn">
+  <br>
+  <br>
+  
+  Last Name: <input type="text" name="lname" id="ln">
+   <br>
+  <br>
+  Email Add: <input type="text" name="Ename" id="En">
+   <br>
+  <br>
+  Phone No: <input type="text" name="Pname" id="Pn">
+
+
+
+  <br>
+  <br>
+  <input type="submit" value="Submit">
+</form>
+</div>
+
+
+
+<script>
+function validateForm() {
+  if (document.forms["myForm"]["fname"].value== "") {
+    document.getElementById('fn').style.borderColor="red";
+ 
+  }
+   if (document.forms["myForm"]["lname"].value== "") {
+  	document.getElementById('ln').style.backgroundColor="yellow";
+  }
+  if (document.forms["myForm"]["Ename"].value== "") {
+  	document.getElementById('En').style.lineHeight="3";
+
+  }
+  if (document.forms["myForm"]["Pname"].value== "") {
+  	document.getElementById('Pn').style.borderWidth = "thick";
+  	 alert("Please Fill all the fields");
+  	return false;
+  }
+}
+</script>
+</body>
+</html>
