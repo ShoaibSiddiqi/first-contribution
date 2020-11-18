@@ -1,0 +1,60 @@
+body{
+  background-color:#ccffff;
+  background-clip: content-box;
+  background-image: url("../Images/background.jpg");
+  align-self: center;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  background-position: center;
+  border-style: groove;
+  border-color: #AE1438;
+  border-width: 10px;
+  border-top-color: #E71C23;
+  border-bottom-color: #E71C23;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  margin-top: 70px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  font-family: arial;
+
+}
+h1{
+  background-color: rgba(61, 65, 68, 0.5);
+  margin: 25px;
+  color:#ffffff;
+  font-weight: bold;
+}
+
+div{
+  margin: 35px;
+}
+
+.heading{
+  margin: 35px;
+}
+
+ul{
+  margin: 35px;
+}
+
+p{
+  margin: 35px;
+}
+
+q{
+  margin: 35px
+}
+
+form{
+  margin: 35px;
+  font-weight: bold;
+}
+
+button{
+  margin: 35px;
+  background-color: #0ABDE3;
+  color: #EAF0F1;
+  font-weight: bold;
+}
